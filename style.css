@@ -1,0 +1,49 @@
+body {
+  background: #dd384b;
+
+  transition: background-color 0.2s;
+}
+
+.stopwatch {
+  text-align: center;
+  padding: 71px;
+}
+.display {
+  color: #fff;
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+  font-size: 175px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+  transform: translateY(0);
+  text-shadow: 6px 7px 0px rgba(0, 0, 0, 0.35);
+}
+.idezet {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+  font-style: italic;
+}
+.btns {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+}
+button {
+  border: none;
+  border-radius: 20px;
+  height: 75px;
+  width: 200px;
+  font-size: 40px;
+  text-align: center;
+  transition: all 0.1s;
+  background-color: #fff;
+  box-shadow: 0 5px 0 #afafaf;
+}
+button:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
